@@ -41,7 +41,7 @@ int main(void)
         // remove the last digit
         mod1 = num % 10;
         num /= 10;
-        sum1 = sum1 + mod1;
+        sum1 += mod1;
 
         //get second to last digit
         mod2 = num % 10;
